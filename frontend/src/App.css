@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'CustomTitle';
+  src: url('./assets/fonts/customtitle.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "customtitle";
+  font-size: 75px;
+  line-height: 30%;
+  color: #DF78A9;
+  text-shadow: 4px 4px #501C52;
+}
+
+a {
+  color: #501C52;
+  margin: 2%;
+}
+
+button {
+  border-radius: 15px;
+  border: solid;
+  outline-width: thin;
+  padding: 2%;
+  margin: 2%;
+  background-color: #DF78A9;
+}
+
+input {
+  border-radius: 15px;
+  border: solid;
+  outline-width: thin;
+  padding: 2%;
+}
+
+img {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  max-width: 100px;
+  line-height: 50%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #c94685;
+}
+
+.App {
+  text-align: center;
+}
+
+.phone-frame {
+  width: 375px; /* standard iPhone width */
+  height: 750px; /* standard iPhone height */
+  border: 16px solid black;
+  border-radius: 36px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  position: relative;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto; /* scroll if content is bigger */
+  border-radius: 20px;
+  background-image: url("https://i.pinimg.com/564x/b8/46/d2/b846d2312e13851a1ec60f04deb146ab.jpg");
+}
+
+.menu-cont {
+  width: 85%;
+  background: rgb(255, 255, 255, 0.7);
+  /* background-color: white; */
+  color: black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 2%;
+  padding: 2%;
+  opacity: 75%;
+}
+
+.radio-item {
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  border: solid;
+  outline-width: thin;
+  padding: 2%;
+  margin: 2%;
+}
+
+/* Add a light grey background on mouse-over */
+.radio-item:hover {
+  background-color: #e1becf;
+  cursor: pointer;
+}
+
+/* Add a dark background to the active button */
+.radio-item.active {
+  background-color:#DF78A9;
+  color: black;
+}
+
+.workout-display {
+  margin-top: 20px;
+}
+
+.exercise-card {
+  background-color: #f8f9fa;
+  opacity: 75%;;
+  width: 85%;
+  color: black;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: 12px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.end-card {
+  background-color: white;
+  outline: solid black;
+  color: black;
+  width: 75%;
+  border-radius: 15px;
+  padding: 3%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,53 @@
+[
+    {
+      "type": "HIIT",
+      "exercises": [
+        {
+          "name": "Jumping Jacks",
+          "description": "Stand upright with your legs together, arms at your sides, then jump to a position with legs spread and arms overhead."
+        },
+        {
+          "name": "Burpees",
+          "description": "Begin in a squat position, jump into a plank, do a push-up, jump your feet back to squat, and jump up."
+        },
+        {
+          "name": "Mountain Climbers",
+          "description": "In a plank position, drive your knees toward your chest, alternating legs quickly."
+        }
+      ]
+    },
+    {
+      "type": "Pilates",
+      "exercises": [
+        {
+          "name": "Hundred",
+          "description": "Lie on your back, lift your legs and arms, and pulse your arms up and down while inhaling and exhaling for a count of five."
+        },
+        {
+          "name": "Single Leg Stretch",
+          "description": "Lie on your back, bring one knee toward your chest while the other leg extends out, and switch legs in a smooth motion."
+        },
+        {
+          "name": "Roll Up",
+          "description": "Lie flat, reach your arms overhead, and slowly roll up one vertebra at a time to a sitting position."
+        }
+      ]
+    },
+    {
+        "type": "Interval Run",
+        "exercises": [
+          {
+            "name": "Slow Pace",
+            "description": "Slow your pace to a walk or slow jog. This is your recovery period."
+          },
+          {
+            "name": "Jog",
+            "description": "Run at a comfortable pace. Your should feel your heartbeat slowly increase."
+          },
+          {
+            "name": "Sprint",
+            "description": "Run as fast as you can."
+          }
+        ]
+      }
+  ]
